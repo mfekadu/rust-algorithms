@@ -37,3 +37,5 @@ Hello World
 ```
 * creates a new directory called "hello_cargo" (or any name you want) that serves as a nicely packaged project folder where you can [build and run using cargo](https://doc.rust-lang.org/book/2018-edition/ch01-03-hello-cargo.html#building-and-running-a-cargo-project)
   * **cool stuff!**
+
+## [more exploration of Rust here](/learning_rust)
