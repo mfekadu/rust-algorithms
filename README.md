@@ -39,3 +39,4 @@ Hello World
   * **cool stuff!**
 
 ## [more exploration of Rust here](/learning_rust)
+  * see [this file](/learning_rust/guessing_game/src/main.rs) especially 
