@@ -2,7 +2,7 @@
 
 learning algorithms and rust-lang at the same time
 
-# First start with the [rust-lang book](https://doc.rust-lang.org/book/)
+# First start with the [rust-lang book][1]
 
 ## basics
 ### Make file, write hello world
@@ -35,8 +35,16 @@ Hello World
 >cargo new hello_cargo
      Created binary (application) `hello_cargo` project
 ```
-* creates a new directory called "hello_cargo" (or any name you want) that serves as a nicely packaged project folder where you can [build and run using cargo](https://doc.rust-lang.org/book/2018-edition/ch01-03-hello-cargo.html#building-and-running-a-cargo-project)
+* creates a new directory called "hello_cargo" (or any name you want) that serves as a nicely packaged project folder where you can [build and run using cargo][2]
   * **cool stuff!**
 
-## [more exploration of Rust here](/learning_rust)
-  * see [this file](/learning_rust/guessing_game/src/main.rs) especially 
+## [more exploration of Rust here][3]
+  * see [this file][4] especially 
+
+
+
+
+[1]: https://doc.rust-lang.org/book/
+[2]: https://doc.rust-lang.org/book/2018-edition/ch01-03-hello-cargo.html#building-and-running-a-cargo-project
+[3]: https://github.com/mfekadu/rust-algorithms/tree/master/learning_rust
+[4]: https://github.com/mfekadu/rust-algorithms/blob/master/learning_rust/guessing_game/src/main.rs
