@@ -15,6 +15,10 @@ fn main() {
   println!("Hello World");
 }
 ```
+> **Note**: the file does not need be called "main.rs" but **there must be a _main function_**
+
+> you can run `rustc --explain E0601` in the command line to get an explanation... **that's awesome!!**
+
 **Compile and run**
 ```
 >rustc main.rs
