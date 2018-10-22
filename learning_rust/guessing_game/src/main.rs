@@ -2,6 +2,9 @@ extern crate rand; /* not built-in to rust, brought in by Cargo */
 
 use std::io; /* standard input/output library, like #include <stdio.h> */
 use rand::Rng;
+/* Ordering is an enum with variants Less, Greater and Equal */
+use std::cmp::Ordering;
+
 
 fn main() {
   println!("Guess the number!");
@@ -40,9 +43,25 @@ fn main() {
   /* print with string format */
   println!("You guessed: {}", guess);
 
-//  if secret_number == guess {
- //   println!("you got it!");
-//  } else {
- //   println!("wrong!");
-//  }
+  /* convert guess to a 32 bit unsigned int */
+  /* Note: Rust is strongly and statically typed */
+  /* trim() will eliminate the '\n'
+   * parse() will convert to some kind of number
+   * the ':' after guess tells Rust to annotate the variable type
+   * expect() will handle if say "A*$" was the guess
+   */
+  let guess: u32 = guess.trim().parse()
+    .expect("Please type a number!");
+
+  /* soo..I suppose you can do .cmp() on any "std" type? or subtype?? */
+  /* "match" is a control-flow operator, kinda like switch-case, but not
+   *   "a match expression is made of 'arms'"
+   *   "an arm consists of a 'pattern'"
+   *   "Rust takes the value given to match and looks through each pattern"
+   */
+  match guess.cmp(&secret_number) {
+    Ordering::Less => println!("Too small!"),   /* guess <  secret */
+    Ordering::Greater => println!("Too big!"),  /* guess >  secret */
+    Ordering::Equal => println!("You got it!"), /* guess == secret */
+  }
 }
