@@ -40,9 +40,9 @@ fn main() {
   /* print with string format */
   println!("You guessed: {}", guess);
 
-  if secret_number == guess {
-    println!("you got it!");
-  } else {
-    println!("wrong!");
-  }
+//  if secret_number == guess {
+ //   println!("you got it!");
+//  } else {
+ //   println!("wrong!");
+//  }
 }
