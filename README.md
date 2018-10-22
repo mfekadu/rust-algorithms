@@ -42,6 +42,11 @@ Hello World
   * see [this file][4] especially 
 
 
+# Algorithms
+## Greedy
+## Graphs
+## Etc
+
 
 
 [1]: https://doc.rust-lang.org/book/
