@@ -1,0 +1,6 @@
+[package]
+name = "greedy_stocks"
+version = "0.1.0"
+authors = ["mfekadu <mike.fekadu@gmail.com>"]
+
+[dependencies]
