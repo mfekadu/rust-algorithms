@@ -13,8 +13,8 @@
  *    https://stackoverflow.com/a/24833065/5411712
  *    I feel like this is the most basic thing, but still so hard...
  */
-fn get_max_profit(stock_prices: &[i32]) -> i32 { 
-  stock_prices[0]
+fn get_max_profit(stock_prices: &[i32], num_stocks: usize) -> i32 { 
+  stock_prices[num_stocks - 1]
 }
 
 
@@ -24,5 +24,5 @@ fn main() {
   let stock_prices: [i32; NUM_STOCKS] = [10, 7, 5, 8, 11, 9];
   println!("Hello, world!");
   println!("stock_prices: {:?}", stock_prices);
-  println!("max_profit: {}", get_max_profit(&stock_prices));
+  println!("max_profit: {}", get_max_profit(&stock_prices, NUM_STOCKS));
 }
