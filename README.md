@@ -44,6 +44,8 @@ Hello World
 
 # Algorithms
 ## Greedy
+### [stock prices][5]
+
 ## Graphs
 ## Etc
 
@@ -53,3 +55,4 @@ Hello World
 [2]: https://doc.rust-lang.org/book/2018-edition/ch01-03-hello-cargo.html#building-and-running-a-cargo-project
 [3]: https://github.com/mfekadu/rust-algorithms/tree/master/learning_rust
 [4]: https://github.com/mfekadu/rust-algorithms/blob/master/learning_rust/guessing_game/src/main.rs
+[5]: https://github.com/mfekadu/rust-algorithms/tree/master/algorithms/greedy_stocks
