@@ -43,11 +43,12 @@ Hello World
 
 
 # Algorithms
-## Greedy
-### [stock prices][5]
-
-## Graphs
-## Etc
+## Greedy -- [stock prices][5]
+## Greedy -- 
+## Graphs -- 
+## Bottom-up -- 
+## Bottom-up -- 
+## Etc --
 
 
 
