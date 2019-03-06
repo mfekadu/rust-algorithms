@@ -40,6 +40,7 @@ Hello World
 
 ## [more exploration of Rust here][3]
   * see [this file][4] especially 
+  * also [this gist][gist] was fun and challenging
 
 
 # Algorithms
@@ -57,3 +58,4 @@ Hello World
 [3]: https://github.com/mfekadu/rust-algorithms/tree/master/learning_rust
 [4]: https://github.com/mfekadu/rust-algorithms/blob/master/learning_rust/guessing_game/src/main.rs
 [5]: https://github.com/mfekadu/rust-algorithms/tree/master/algorithms/greedy_stocks
+[gist]: https://gist.github.com/mfekadu/caaaad3fa2232a8eb24e4a6af28c8411
